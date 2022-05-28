@@ -28,7 +28,7 @@ function Basicform() {
                     <input name={'firstname'} onChange={(e) => handleOnChange(e)} value={inputvalues.firstname} type={'text'} placeholder='First name'></input> <br></br>
                     <input name={'lastname'} onChange={handleOnChange} value={inputvalues.lastname} type={'text'} placeholder='Last name' ></input><br></br>
                     <input name={'email'} onChange={handleOnChange} value={inputvalues.email} type={'text'} placeholder='Email' ></input> <br></br>
-                    <button onClick={onRegister} type='submit' >Register</button>
+                    <button onClick={onRegister} type='submit' >Register</button> 
                 </form>
 
             </div>
